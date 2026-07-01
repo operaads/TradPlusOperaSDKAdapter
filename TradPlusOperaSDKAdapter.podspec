@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   # ――― 基本信息 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "TradPlusOperaSDKAdapter"
-  spec.version      = "2.11.2.0"
+  spec.version      = "2.11.2.1"
   spec.summary      = "Opera Ads Custom Adapter for TradPlus Mediation Platform."
   spec.description  = <<-DESC
     TradPlusOperaSDKAdapter is a custom mediation adapter that enables the integration of

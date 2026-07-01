@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		094990B349EAE42A3A8B182C84039024 /* OpAdxSdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D2F23373AA5A79E8851041C58050A40C /* Build configuration list for PBXAggregateTarget "OpAdxSdk" */;
+			buildPhases = (
+				6DF3B48A96E147CDCC31D81D2D488DEA /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = OpAdxSdk;
+		};
+		4E87B13630919895F2E4C3A8CCAEF431 /* TradPlusOperaSDKAdapter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 548E4FCA98E4B76503D8CBB7DF13FC17 /* Build configuration list for PBXAggregateTarget "TradPlusOperaSDKAdapter" */;
+			buildPhases = (
+				D52E4CCDAE4A130D92ACE1B62F30F78F /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				79E81DEB441D21A41198BC012017CFDD /* PBXTargetDependency */,
+				EEDB37A61D8FF06560B9C858F56802FD /* PBXTargetDependency */,
+			);
+			name = TradPlusOperaSDKAdapter;
+		};
+		9E242754A8ACD61B827B07B18B3A319E /* TradPlusAdSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FA261509DA2A19E3707D22629BC0A338 /* Build configuration list for PBXAggregateTarget "TradPlusAdSDK" */;
+			buildPhases = (
+				21A6B075C54D269E5E5F326277AB9838 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				4C0C76A88825861BB0729905275CD019 /* PBXTargetDependency */,
+			);
+			name = TradPlusAdSDK;
+		};
+		F6AA1692D88B2A7E22F3044D400EB382 /* TPExchange */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 91174FCEAC794E144E3E9764D84D402C /* Build configuration list for PBXAggregateTarget "TPExchange" */;
+			buildPhases = (
+				119C6D85C5A38B90CC591D9EB4BDC789 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = TPExchange;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		264283BF51E1B092539C4A56EB6E5511 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		3A4FC9CC307F42B11C2A9D5141166464 /* Pods-OpAdxTradPlusDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC46202F2ACE4E8D6FB6AD0E6786B95 /* Pods-OpAdxTradPlusDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87B97CE9495D77CE47695A01E5CF98F9 /* Pods-OpAdxTradPlusDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DAEC5A96533DF755578AB9D3A16A9F7 /* Pods-OpAdxTradPlusDemo-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		542EF42320283C7A99EC8310ED2E281A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E242754A8ACD61B827B07B18B3A319E;
+			remoteInfo = TradPlusAdSDK;
+		};
+		B9A57DA732B52341626FB0DEEB40C2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094990B349EAE42A3A8B182C84039024;
+			remoteInfo = OpAdxSdk;
+		};
+		C186B91D06AA6EEF8FA94722CB2E1FE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6AA1692D88B2A7E22F3044D400EB382;
+			remoteInfo = TPExchange;
+		};
+		C7DDE79ED9B8ED7195013523A825EF13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 094990B349EAE42A3A8B182C84039024;
+			remoteInfo = OpAdxSdk;
+		};
+		DBCEF236EA38CA97040596D4D4167367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E242754A8ACD61B827B07B18B3A319E;
+			remoteInfo = TradPlusAdSDK;
+		};
+		E96AF639E2A42CF3A434AE8D3945BAE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E87B13630919895F2E4C3A8CCAEF431;
+			remoteInfo = TradPlusOperaSDKAdapter;
+		};
+		FB191B3968315BE675F76B500A4E363F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6AA1692D88B2A7E22F3044D400EB382;
+			remoteInfo = TPExchange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0740B3551629E3D6C7481E0F10F0F8F1 /* TradPlusOperaSDKAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TradPlusOperaSDKAdapter.debug.xcconfig; sourceTree = "<group>"; };
+		0C60531915D32362FBD5093FE84629A4 /* TradPlusAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TradPlusAds.xcframework; path = TradPlusAdSDK/TradPlusAds.xcframework; sourceTree = "<group>"; };
+		0DC5730A9BBF98F0E7CBED5A7AA1B356 /* TradPlusAdSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TradPlusAdSDK.release.xcconfig; sourceTree = "<group>"; };
+		12649D6944B3C34253A9A6E153B78C5F /* TradPlusAds.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TradPlusAds.bundle; path = TradPlusAdSDK/TradPlusAds.bundle; sourceTree = "<group>"; };
+		1C2A33BF0E0D1AFBCAF2EBC98B307E85 /* Pods-OpAdxTradPlusDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpAdxTradPlusDemo-Info.plist"; sourceTree = "<group>"; };
+		1E257F318D9D511BCCC3EFA9180C9A4A /* OpAdxSdk-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpAdxSdk-xcframeworks.sh"; sourceTree = "<group>"; };
+		21BA5B7E7E8D040AB3D7B9AB5FDD46C1 /* TradPlusOperaSDKAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TradPlusOperaSDKAdapter.release.xcconfig; sourceTree = "<group>"; };
+		22C45288763E80157D69596AFD9B9D13 /* TPExchange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPExchange.debug.xcconfig; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4470FC21E2BB0D048E3236B6CCDE9F87 /* Pods-OpAdxTradPlusDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OpAdxTradPlusDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		453F0362883FE378CF2AC3CAB40F7E85 /* Pods-OpAdxTradPlusDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OpAdxTradPlusDemo"; path = Pods_OpAdxTradPlusDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CF528E587D8C540E8F629E6BCE7A8D8 /* TPExchange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPExchange.release.xcconfig; sourceTree = "<group>"; };
+		69D5E7C86B7B09369029B1ED2D237701 /* TPExchange.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TPExchange.xcframework; path = TPExchange/TPExchange.xcframework; sourceTree = "<group>"; };
+		707AF7097BA9E7C89ED72CD0179AEE59 /* Pods-OpAdxTradPlusDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpAdxTradPlusDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		79FB1A33DF7B39F5CD3C85AAEEA725DD /* Pods-OpAdxTradPlusDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OpAdxTradPlusDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		86C83A347E3A07CF11DC4E8BE99B9FD0 /* TPExchange-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TPExchange-xcframeworks.sh"; sourceTree = "<group>"; };
+		8D3CC3534FDD1252F3AB3554420B9275 /* TradPlusADX.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TradPlusADX.bundle; path = TPExchange/TradPlusADX.bundle; sourceTree = "<group>"; };
+		8DAEC5A96533DF755578AB9D3A16A9F7 /* Pods-OpAdxTradPlusDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OpAdxTradPlusDemo-dummy.m"; sourceTree = "<group>"; };
+		9C2D9B7D32817BB8CB9526E281DC6F33 /* OpAdxSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpAdxSdk.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A736F41B63EF03262BD9F0C383E15905 /* Pods-OpAdxTradPlusDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OpAdxTradPlusDemo.modulemap"; sourceTree = "<group>"; };
+		AD172D24D61D7685FEC8D7411F72FEA1 /* Pods-OpAdxTradPlusDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OpAdxTradPlusDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C135AAC671C5F1B5425C0D8C4285D7A9 /* OpAdxSdk.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = OpAdxSdk.xcframework; sourceTree = "<group>"; };
+		C6F2238BD0F5D5A42779E05C14F749E9 /* TradPlusOperaSDKAdapter-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TradPlusOperaSDKAdapter-xcframeworks.sh"; sourceTree = "<group>"; };
+		CCF75D521CD3CF6096F3F25CFFE83D0D /* TradPlusAdSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "TradPlusAdSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		D1336F49E57C5578BAA3620AA979D443 /* OpAdxSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OpAdxSdk.debug.xcconfig; sourceTree = "<group>"; };
+		E0F5F9B23030FCFD21CA086A3DA110C5 /* Pods-OpAdxTradPlusDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OpAdxTradPlusDemo-resources.sh"; sourceTree = "<group>"; };
+		F7D01D96CAE53EA634BEE54965DA4058 /* OpAdxAdapterTradPlus.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = OpAdxAdapterTradPlus.xcframework; sourceTree = "<group>"; };
+		FEC47FD51E779407B93FC0D05A08CFCF /* TPCrossAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = TPCrossAdapter.xcframework; path = TradPlusAdSDK/TPCrossAdapter.xcframework; sourceTree = "<group>"; };
+		FF0D03FD42013770EA68295BFCCB76D1 /* TradPlusAdSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TradPlusAdSDK.debug.xcconfig; sourceTree = "<group>"; };
+		FFC46202F2ACE4E8D6FB6AD0E6786B95 /* Pods-OpAdxTradPlusDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OpAdxTradPlusDemo-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9FDAB9DD37F6E78CD44B99043EA6D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264283BF51E1B092539C4A56EB6E5511 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		014CD25AD921B0C582E21BEA64A95BDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6F2238BD0F5D5A42779E05C14F749E9 /* TradPlusOperaSDKAdapter-xcframeworks.sh */,
+				0740B3551629E3D6C7481E0F10F0F8F1 /* TradPlusOperaSDKAdapter.debug.xcconfig */,
+				21BA5B7E7E8D040AB3D7B9AB5FDD46C1 /* TradPlusOperaSDKAdapter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TradPlusOperaSDKAdapter";
+			sourceTree = "<group>";
+		};
+		060AE17C0754667BB7B518DA3B58AD83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53388AE39EDC8DD91425BA6DED62989A /* OpAdxSdk */,
+				EB46678591EF76B682991687FBBF37D4 /* TPExchange */,
+				F8CA313FBB33B5E24C2A626553748F55 /* TradPlusAdSDK */,
+				7A8F0E3BF9DF696E902529CC3939F6E8 /* TradPlusOperaSDKAdapter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0CD5F718A0CE041F8F6CC1FE43D01687 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FEC47FD51E779407B93FC0D05A08CFCF /* TPCrossAdapter.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F0117D813A075DD2779502B7AC5E10C /* Pods-OpAdxTradPlusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A736F41B63EF03262BD9F0C383E15905 /* Pods-OpAdxTradPlusDemo.modulemap */,
+				4470FC21E2BB0D048E3236B6CCDE9F87 /* Pods-OpAdxTradPlusDemo-acknowledgements.markdown */,
+				79FB1A33DF7B39F5CD3C85AAEEA725DD /* Pods-OpAdxTradPlusDemo-acknowledgements.plist */,
+				8DAEC5A96533DF755578AB9D3A16A9F7 /* Pods-OpAdxTradPlusDemo-dummy.m */,
+				1C2A33BF0E0D1AFBCAF2EBC98B307E85 /* Pods-OpAdxTradPlusDemo-Info.plist */,
+				E0F5F9B23030FCFD21CA086A3DA110C5 /* Pods-OpAdxTradPlusDemo-resources.sh */,
+				FFC46202F2ACE4E8D6FB6AD0E6786B95 /* Pods-OpAdxTradPlusDemo-umbrella.h */,
+				707AF7097BA9E7C89ED72CD0179AEE59 /* Pods-OpAdxTradPlusDemo.debug.xcconfig */,
+				AD172D24D61D7685FEC8D7411F72FEA1 /* Pods-OpAdxTradPlusDemo.release.xcconfig */,
+			);
+			name = "Pods-OpAdxTradPlusDemo";
+			path = "Target Support Files/Pods-OpAdxTradPlusDemo";
+			sourceTree = "<group>";
+		};
+		12E4463CDE8404FDB4EFD08D0D254E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C60531915D32362FBD5093FE84629A4 /* TradPlusAds.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53388AE39EDC8DD91425BA6DED62989A /* OpAdxSdk */ = {
+			isa = PBXGroup;
+			children = (
+				B8FDD226AD287968FA6E3EB498A6F5D4 /* Frameworks */,
+				5CEE2BE6641424553589320ABB1ED7BD /* Support Files */,
+			);
+			name = OpAdxSdk;
+			path = OpAdxSdk;
+			sourceTree = "<group>";
+		};
+		5411A0399A3B956E3E12663DC618ED10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				12649D6944B3C34253A9A6E153B78C5F /* TradPlusAds.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5C9F7E43425B276DD2241B18E6D0A68F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF75D521CD3CF6096F3F25CFFE83D0D /* TradPlusAdSDK-xcframeworks.sh */,
+				FF0D03FD42013770EA68295BFCCB76D1 /* TradPlusAdSDK.debug.xcconfig */,
+				0DC5730A9BBF98F0E7CBED5A7AA1B356 /* TradPlusAdSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TradPlusAdSDK";
+			sourceTree = "<group>";
+		};
+		5CEE2BE6641424553589320ABB1ED7BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E257F318D9D511BCCC3EFA9180C9A4A /* OpAdxSdk-xcframeworks.sh */,
+				D1336F49E57C5578BAA3620AA979D443 /* OpAdxSdk.debug.xcconfig */,
+				9C2D9B7D32817BB8CB9526E281DC6F33 /* OpAdxSdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpAdxSdk";
+			sourceTree = "<group>";
+		};
+		6BD88BBA5D8A294AE5EC94078C51215D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453F0362883FE378CF2AC3CAB40F7E85 /* Pods-OpAdxTradPlusDemo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7397D1AC40015295FFC63C4EEB8E25B5 /* TradPlusAds */ = {
+			isa = PBXGroup;
+			children = (
+				12E4463CDE8404FDB4EFD08D0D254E3F /* Frameworks */,
+				5411A0399A3B956E3E12663DC618ED10 /* Resources */,
+			);
+			name = TradPlusAds;
+			sourceTree = "<group>";
+		};
+		7A8F0E3BF9DF696E902529CC3939F6E8 /* TradPlusOperaSDKAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				AB75B60675084519DB045C20A98F65B9 /* Frameworks */,
+				014CD25AD921B0C582E21BEA64A95BDD /* Support Files */,
+			);
+			name = TradPlusOperaSDKAdapter;
+			path = TradPlusOperaSDKAdapter;
+			sourceTree = "<group>";
+		};
+		9168B4F01C219FFB38E96EA364ED951F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F0117D813A075DD2779502B7AC5E10C /* Pods-OpAdxTradPlusDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AB75B60675084519DB045C20A98F65B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7D01D96CAE53EA634BEE54965DA4058 /* OpAdxAdapterTradPlus.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD6F7113F1CC9686EC6414D1C3E5A149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69D5E7C86B7B09369029B1ED2D237701 /* TPExchange.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8FDD226AD287968FA6E3EB498A6F5D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C135AAC671C5F1B5425C0D8C4285D7A9 /* OpAdxSdk.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1AA37A28970B3B302C5A77C3E31314A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D3CC3534FDD1252F3AB3554420B9275 /* TradPlusADX.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C8DED49ACDF55EB50E292FCE34C595D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86C83A347E3A07CF11DC4E8BE99B9FD0 /* TPExchange-xcframeworks.sh */,
+				22C45288763E80157D69596AFD9B9D13 /* TPExchange.debug.xcconfig */,
+				4CF528E587D8C540E8F629E6BCE7A8D8 /* TPExchange.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPExchange";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				060AE17C0754667BB7B518DA3B58AD83 /* Pods */,
+				6BD88BBA5D8A294AE5EC94078C51215D /* Products */,
+				9168B4F01C219FFB38E96EA364ED951F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1F2C3D4B57A5474AC040235046F47D6 /* TPCrossAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				0CD5F718A0CE041F8F6CC1FE43D01687 /* Frameworks */,
+			);
+			name = TPCrossAdapter;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB46678591EF76B682991687FBBF37D4 /* TPExchange */ = {
+			isa = PBXGroup;
+			children = (
+				AD6F7113F1CC9686EC6414D1C3E5A149 /* Frameworks */,
+				C1AA37A28970B3B302C5A77C3E31314A /* Resources */,
+				C8DED49ACDF55EB50E292FCE34C595D8 /* Support Files */,
+			);
+			name = TPExchange;
+			path = TPExchange;
+			sourceTree = "<group>";
+		};
+		F8CA313FBB33B5E24C2A626553748F55 /* TradPlusAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5C9F7E43425B276DD2241B18E6D0A68F /* Support Files */,
+				E1F2C3D4B57A5474AC040235046F47D6 /* TPCrossAdapter */,
+				7397D1AC40015295FFC63C4EEB8E25B5 /* TradPlusAds */,
+			);
+			name = TradPlusAdSDK;
+			path = TradPlusAdSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		AAE3BF8C388F0E500083340933B502D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4FC9CC307F42B11C2A9D5141166464 /* Pods-OpAdxTradPlusDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7BB5E780D614B08B49183287A5888215 /* Pods-OpAdxTradPlusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49459F343C482811E4DBAE6005B5FB94 /* Build configuration list for PBXNativeTarget "Pods-OpAdxTradPlusDemo" */;
+			buildPhases = (
+				AAE3BF8C388F0E500083340933B502D4 /* Headers */,
+				C23A3546CF88FEF9BD524F07FC66B77E /* Sources */,
+				D9FDAB9DD37F6E78CD44B99043EA6D5F /* Frameworks */,
+				D4CDB60CA11EFAE987CEA80F34617085 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55F81E38539D23E7B3AB1F8FDE7B9476 /* PBXTargetDependency */,
+				BFCB953051080AA0E712C4812A606C91 /* PBXTargetDependency */,
+				A180952229BB7242467BBB50D6120B1C /* PBXTargetDependency */,
+				96F2986DEB56D29B90E50D7986390827 /* PBXTargetDependency */,
+			);
+			name = "Pods-OpAdxTradPlusDemo";
+			productName = Pods_OpAdxTradPlusDemo;
+			productReference = 453F0362883FE378CF2AC3CAB40F7E85 /* Pods-OpAdxTradPlusDemo */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6BD88BBA5D8A294AE5EC94078C51215D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				094990B349EAE42A3A8B182C84039024 /* OpAdxSdk */,
+				7BB5E780D614B08B49183287A5888215 /* Pods-OpAdxTradPlusDemo */,
+				F6AA1692D88B2A7E22F3044D400EB382 /* TPExchange */,
+				9E242754A8ACD61B827B07B18B3A319E /* TradPlusAdSDK */,
+				4E87B13630919895F2E4C3A8CCAEF431 /* TradPlusOperaSDKAdapter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4CDB60CA11EFAE987CEA80F34617085 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		119C6D85C5A38B90CC591D9EB4BDC789 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TPExchange/TPExchange-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TPExchange/TPExchange-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TPExchange/TPExchange-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21A6B075C54D269E5E5F326277AB9838 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TradPlusAdSDK/TradPlusAdSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TradPlusAdSDK/TradPlusAdSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TradPlusAdSDK/TradPlusAdSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DF3B48A96E147CDCC31D81D2D488DEA /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/OpAdxSdk/OpAdxSdk-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/OpAdxSdk/OpAdxSdk-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/OpAdxSdk/OpAdxSdk-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D52E4CCDAE4A130D92ACE1B62F30F78F /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TradPlusOperaSDKAdapter/TradPlusOperaSDKAdapter-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/TradPlusOperaSDKAdapter/TradPlusOperaSDKAdapter-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/TradPlusOperaSDKAdapter/TradPlusOperaSDKAdapter-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C23A3546CF88FEF9BD524F07FC66B77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B97CE9495D77CE47695A01E5CF98F9 /* Pods-OpAdxTradPlusDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C0C76A88825861BB0729905275CD019 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPExchange;
+			target = F6AA1692D88B2A7E22F3044D400EB382 /* TPExchange */;
+			targetProxy = C186B91D06AA6EEF8FA94722CB2E1FE6 /* PBXContainerItemProxy */;
+		};
+		55F81E38539D23E7B3AB1F8FDE7B9476 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpAdxSdk;
+			target = 094990B349EAE42A3A8B182C84039024 /* OpAdxSdk */;
+			targetProxy = B9A57DA732B52341626FB0DEEB40C2B3 /* PBXContainerItemProxy */;
+		};
+		79E81DEB441D21A41198BC012017CFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OpAdxSdk;
+			target = 094990B349EAE42A3A8B182C84039024 /* OpAdxSdk */;
+			targetProxy = C7DDE79ED9B8ED7195013523A825EF13 /* PBXContainerItemProxy */;
+		};
+		96F2986DEB56D29B90E50D7986390827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TradPlusOperaSDKAdapter;
+			target = 4E87B13630919895F2E4C3A8CCAEF431 /* TradPlusOperaSDKAdapter */;
+			targetProxy = E96AF639E2A42CF3A434AE8D3945BAE9 /* PBXContainerItemProxy */;
+		};
+		A180952229BB7242467BBB50D6120B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TradPlusAdSDK;
+			target = 9E242754A8ACD61B827B07B18B3A319E /* TradPlusAdSDK */;
+			targetProxy = DBCEF236EA38CA97040596D4D4167367 /* PBXContainerItemProxy */;
+		};
+		BFCB953051080AA0E712C4812A606C91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPExchange;
+			target = F6AA1692D88B2A7E22F3044D400EB382 /* TPExchange */;
+			targetProxy = FB191B3968315BE675F76B500A4E363F /* PBXContainerItemProxy */;
+		};
+		EEDB37A61D8FF06560B9C858F56802FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TradPlusAdSDK;
+			target = 9E242754A8ACD61B827B07B18B3A319E /* TradPlusAdSDK */;
+			targetProxy = 542EF42320283C7A99EC8310ED2E281A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		063B65820BC4FD4DA00750EAB78282EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 707AF7097BA9E7C89ED72CD0179AEE59 /* Pods-OpAdxTradPlusDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1CBD478A36C57615BD92CFC8EB456FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C2D9B7D32817BB8CB9526E281DC6F33 /* OpAdxSdk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27921BA9FE1CD00B274B22E6034D9DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1336F49E57C5578BAA3620AA979D443 /* OpAdxSdk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D7E87E75C6203D523BECD7718026B22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF0D03FD42013770EA68295BFCCB76D1 /* TradPlusAdSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		987FC97D7C019B9BB70BFFD2E160C063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF528E587D8C540E8F629E6BCE7A8D8 /* TPExchange.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E0ED067BC8CDF59417705A7BE4E592A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0740B3551629E3D6C7481E0F10F0F8F1 /* TradPlusOperaSDKAdapter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C067838136EA8CCF207EB3CCB9190C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21BA5B7E7E8D040AB3D7B9AB5FDD46C1 /* TradPlusOperaSDKAdapter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6FE39BA62E43CFB3AF5487AACAD4870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC5730A9BBF98F0E7CBED5A7AA1B356 /* TradPlusAdSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA715895A4F93DDDF6E114B5C7AE9F02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD172D24D61D7685FEC8D7411F72FEA1 /* Pods-OpAdxTradPlusDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB501500B2309473D41F888E29EDC183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22C45288763E80157D69596AFD9B9D13 /* TPExchange.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49459F343C482811E4DBAE6005B5FB94 /* Build configuration list for PBXNativeTarget "Pods-OpAdxTradPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				063B65820BC4FD4DA00750EAB78282EE /* Debug */,
+				FA715895A4F93DDDF6E114B5C7AE9F02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		548E4FCA98E4B76503D8CBB7DF13FC17 /* Build configuration list for PBXAggregateTarget "TradPlusOperaSDKAdapter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0ED067BC8CDF59417705A7BE4E592A /* Debug */,
+				C067838136EA8CCF207EB3CCB9190C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91174FCEAC794E144E3E9764D84D402C /* Build configuration list for PBXAggregateTarget "TPExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB501500B2309473D41F888E29EDC183 /* Debug */,
+				987FC97D7C019B9BB70BFFD2E160C063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2F23373AA5A79E8851041C58050A40C /* Build configuration list for PBXAggregateTarget "OpAdxSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27921BA9FE1CD00B274B22E6034D9DB4 /* Debug */,
+				1CBD478A36C57615BD92CFC8EB456FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA261509DA2A19E3707D22629BC0A338 /* Build configuration list for PBXAggregateTarget "TradPlusAdSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D7E87E75C6203D523BECD7718026B22 /* Debug */,
+				F6FE39BA62E43CFB3AF5487AACAD4870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

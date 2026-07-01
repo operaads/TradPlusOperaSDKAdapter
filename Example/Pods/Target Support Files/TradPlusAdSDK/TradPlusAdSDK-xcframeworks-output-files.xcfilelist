@@ -1,0 +1,2 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/TradPlusAdSDK/TPCrossAdapter/TPCrossAdapter.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/TradPlusAdSDK/TradPlusAds/TradPlusAds.framework

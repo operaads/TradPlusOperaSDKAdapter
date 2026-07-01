@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C9719F2FA1A547001B89D6 /* InterstitialC2SBidingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C9719E2FA1A547001B89D6 /* InterstitialC2SBidingVC.m */; };
+		49CBDFFB2F694E4800F334A7 /* OperaNativeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CBDFFA2F694E4800F334A7 /* OperaNativeCardView.m */; };
+		6A1B00012FAAA00100B10001 /* SplashC2SBidingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B00022FAAA00100B10001 /* SplashC2SBidingVC.m */; };
+		6A1B00032FAAA00100B10001 /* BannerC2SBidingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B00042FAAA00100B10001 /* BannerC2SBidingVC.m */; };
+		6A1B00052FAAA00100B10001 /* RewardedC2SBidingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B00062FAAA00100B10001 /* RewardedC2SBidingVC.m */; };
+		6A1B00072FAAA00100B10001 /* NativeC2SBidingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1B00082FAAA00100B10001 /* NativeC2SBidingVC.m */; };
+		8A802EF2FF966877FB378132 /* Pods_OpAdxTradPlusDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE1F43DB69148CCE52D160E /* Pods_OpAdxTradPlusDemo.framework */; };
+		A1000001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000001 /* main.m */; };
+		A1000002 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000002 /* AppDelegate.m */; };
+		A1000003 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000003 /* HomeViewController.m */; };
+		A1000004 /* SplashVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000004 /* SplashVC.m */; };
+		A1000005 /* BannerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000005 /* BannerVC.m */; };
+		A1000006 /* InterstitialVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000006 /* InterstitialVC.m */; };
+		A1000007 /* RewardedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000007 /* RewardedVC.m */; };
+		A1000008 /* NativeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A2000008 /* NativeVC.m */; };
+		A1000009 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000009 /* Assets.xcassets */; };
+		A100000A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A200000A /* Main.storyboard */; };
+		A100000B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A200000B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49C9719D2FA1A547001B89D6 /* InterstitialC2SBidingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialC2SBidingVC.h; sourceTree = "<group>"; };
+		49C9719E2FA1A547001B89D6 /* InterstitialC2SBidingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialC2SBidingVC.m; sourceTree = "<group>"; };
+		49CBDFF92F694E4800F334A7 /* OperaNativeCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OperaNativeCardView.h; sourceTree = "<group>"; };
+		49CBDFFA2F694E4800F334A7 /* OperaNativeCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperaNativeCardView.m; sourceTree = "<group>"; };
+		6A1B00022FAAA00100B10001 /* SplashC2SBidingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashC2SBidingVC.m; sourceTree = "<group>"; };
+		6A1B00042FAAA00100B10001 /* BannerC2SBidingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerC2SBidingVC.m; sourceTree = "<group>"; };
+		6A1B00062FAAA00100B10001 /* RewardedC2SBidingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardedC2SBidingVC.m; sourceTree = "<group>"; };
+		6A1B00082FAAA00100B10001 /* NativeC2SBidingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeC2SBidingVC.m; sourceTree = "<group>"; };
+		6A1B00092FAAA00100B10001 /* SplashC2SBidingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashC2SBidingVC.h; sourceTree = "<group>"; };
+		6A1B000A2FAAA00100B10001 /* BannerC2SBidingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerC2SBidingVC.h; sourceTree = "<group>"; };
+		6A1B000B2FAAA00100B10001 /* RewardedC2SBidingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardedC2SBidingVC.h; sourceTree = "<group>"; };
+		6A1B000C2FAAA00100B10001 /* NativeC2SBidingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeC2SBidingVC.h; sourceTree = "<group>"; };
+		7AE1F43DB69148CCE52D160E /* Pods_OpAdxTradPlusDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpAdxTradPlusDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2000001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2000002 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2000003 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		A2000004 /* SplashVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashVC.m; sourceTree = "<group>"; };
+		A2000005 /* BannerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerVC.m; sourceTree = "<group>"; };
+		A2000006 /* InterstitialVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterstitialVC.m; sourceTree = "<group>"; };
+		A2000007 /* RewardedVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RewardedVC.m; sourceTree = "<group>"; };
+		A2000008 /* NativeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeVC.m; sourceTree = "<group>"; };
+		A2000009 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A200000A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A200000B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2000010 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2000011 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A2000012 /* SplashVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashVC.h; sourceTree = "<group>"; };
+		A2000013 /* BannerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerVC.h; sourceTree = "<group>"; };
+		A2000014 /* InterstitialVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterstitialVC.h; sourceTree = "<group>"; };
+		A2000015 /* RewardedVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RewardedVC.h; sourceTree = "<group>"; };
+		A2000016 /* NativeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeVC.h; sourceTree = "<group>"; };
+		A2000017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000018 /* Pods-OpAdxTradPlusDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A2000019 /* Pods-OpAdxTradPlusDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A3000001 /* OpAdxTradPlusDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpAdxTradPlusDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A802EF2FF966877FB378132 /* Pods_OpAdxTradPlusDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		491510902F628E26001A8897 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		8D896661F838D044B16D0C09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AE1F43DB69148CCE52D160E /* Pods_OpAdxTradPlusDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5000001 = {
+			isa = PBXGroup;
+			children = (
+				A5000002 /* OpAdxTradPlusDemo */,
+				A5000003 /* Products */,
+				A5000004 /* Pods */,
+				491510902F628E26001A8897 /* Recovered References */,
+				8D896661F838D044B16D0C09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A5000002 /* OpAdxTradPlusDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A2000010 /* AppDelegate.h */,
+				A2000002 /* AppDelegate.m */,
+				A2000001 /* main.m */,
+				A2000017 /* Info.plist */,
+				A2000011 /* HomeViewController.h */,
+				A2000003 /* HomeViewController.m */,
+				A5000005 /* Ad */,
+				A5000006 /* Base.lproj */,
+				A2000009 /* Assets.xcassets */,
+			);
+			path = OpAdxTradPlusDemo;
+			sourceTree = "<group>";
+		};
+		A5000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3000001 /* OpAdxTradPlusDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5000004 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2000018 /* Pods-OpAdxTradPlusDemo.debug.xcconfig */,
+				A2000019 /* Pods-OpAdxTradPlusDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A5000005 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				49CBDFF92F694E4800F334A7 /* OperaNativeCardView.h */,
+				49CBDFFA2F694E4800F334A7 /* OperaNativeCardView.m */,
+				A2000012 /* SplashVC.h */,
+				A2000004 /* SplashVC.m */,
+				6A1B00092FAAA00100B10001 /* SplashC2SBidingVC.h */,
+				6A1B00022FAAA00100B10001 /* SplashC2SBidingVC.m */,
+				A2000013 /* BannerVC.h */,
+				A2000005 /* BannerVC.m */,
+				6A1B000A2FAAA00100B10001 /* BannerC2SBidingVC.h */,
+				6A1B00042FAAA00100B10001 /* BannerC2SBidingVC.m */,
+				A2000014 /* InterstitialVC.h */,
+				A2000006 /* InterstitialVC.m */,
+				49C9719D2FA1A547001B89D6 /* InterstitialC2SBidingVC.h */,
+				49C9719E2FA1A547001B89D6 /* InterstitialC2SBidingVC.m */,
+				A2000015 /* RewardedVC.h */,
+				A2000007 /* RewardedVC.m */,
+				6A1B000B2FAAA00100B10001 /* RewardedC2SBidingVC.h */,
+				6A1B00062FAAA00100B10001 /* RewardedC2SBidingVC.m */,
+				A2000016 /* NativeVC.h */,
+				A2000008 /* NativeVC.m */,
+				6A1B000C2FAAA00100B10001 /* NativeC2SBidingVC.h */,
+				6A1B00082FAAA00100B10001 /* NativeC2SBidingVC.m */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		A5000006 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				A200000A /* Main.storyboard */,
+				A200000B /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6000001 /* OpAdxTradPlusDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7000002 /* Build configuration list for PBXNativeTarget "OpAdxTradPlusDemo" */;
+			buildPhases = (
+				D331CF77DC072FC6AA3DA006 /* [CP] Check Pods Manifest.lock */,
+				A4000002 /* Sources */,
+				A4000001 /* Frameworks */,
+				A4000003 /* Resources */,
+				6C8735F2AB5D66827D8B9B69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpAdxTradPlusDemo;
+			productName = OpAdxTradPlusDemo;
+			productReference = A3000001 /* OpAdxTradPlusDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A7000001 /* Build configuration list for PBXProject "OpAdxTradPlusDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5000001;
+			productRefGroup = A5000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6000001 /* OpAdxTradPlusDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000009 /* Assets.xcassets in Resources */,
+				A100000A /* Main.storyboard in Resources */,
+				A100000B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C8735F2AB5D66827D8B9B69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OpAdxTradPlusDemo/Pods-OpAdxTradPlusDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D331CF77DC072FC6AA3DA006 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpAdxTradPlusDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1B00012FAAA00100B10001 /* SplashC2SBidingVC.m in Sources */,
+				6A1B00032FAAA00100B10001 /* BannerC2SBidingVC.m in Sources */,
+				6A1B00052FAAA00100B10001 /* RewardedC2SBidingVC.m in Sources */,
+				6A1B00072FAAA00100B10001 /* NativeC2SBidingVC.m in Sources */,
+				49C9719F2FA1A547001B89D6 /* InterstitialC2SBidingVC.m in Sources */,
+				A1000001 /* main.m in Sources */,
+				A1000002 /* AppDelegate.m in Sources */,
+				A1000003 /* HomeViewController.m in Sources */,
+				A1000004 /* SplashVC.m in Sources */,
+				A1000005 /* BannerVC.m in Sources */,
+				A1000006 /* InterstitialVC.m in Sources */,
+				A1000007 /* RewardedVC.m in Sources */,
+				49CBDFFB2F694E4800F334A7 /* OperaNativeCardView.m in Sources */,
+				A1000008 /* NativeVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2000018 /* Pods-OpAdxTradPlusDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2P9LX4JPN;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OpAdxTradPlusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opera.adx.tradplus.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2000019 /* Pods-OpAdxTradPlusDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A2P9LX4JPN;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = OpAdxTradPlusDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.opera.adx.tradplus.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7000001 /* Build configuration list for PBXProject "OpAdxTradPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000001 /* Debug */,
+				AA000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7000002 /* Build configuration list for PBXNativeTarget "OpAdxTradPlusDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA000003 /* Debug */,
+				AA000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8000001 /* Project object */;
+}

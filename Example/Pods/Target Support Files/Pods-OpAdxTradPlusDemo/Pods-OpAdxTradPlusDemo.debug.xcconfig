@@ -1,0 +1,15 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EMBEDDED_CONTENT_CONTAINS_SWIFT = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/OpAdxSdk" "${PODS_ROOT}/TPExchange/TPExchange" "${PODS_ROOT}/TradPlusAdSDK/TradPlusAdSDK" "${PODS_ROOT}/TradPlusOperaSDKAdapter" "${PODS_XCFRAMEWORKS_BUILD_DIR}/OpAdxSdk" "${PODS_XCFRAMEWORKS_BUILD_DIR}/TPExchange" "${PODS_XCFRAMEWORKS_BUILD_DIR}/TradPlusAdSDK/TPCrossAdapter" "${PODS_XCFRAMEWORKS_BUILD_DIR}/TradPlusAdSDK/TradPlusAds" "${PODS_XCFRAMEWORKS_BUILD_DIR}/TradPlusOperaSDKAdapter"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -ObjC -l"ObjC" -l"c++" -l"resolv" -l"sqlite3" -l"xml2" -l"z" -framework "CoreGraphics" -framework "Foundation" -framework "OpAdxAdapterTradPlus" -framework "OpAdxSdk" -framework "SystemConfiguration" -framework "TPCrossAdapter" -framework "TPExchange" -framework "TradPlusAds" -framework "UIKit"
+OTHER_MODULE_VERIFIER_FLAGS = $(inherited) "-F${PODS_CONFIGURATION_BUILD_DIR}/OpAdxSdk" "-F${PODS_CONFIGURATION_BUILD_DIR}/TPExchange" "-F${PODS_CONFIGURATION_BUILD_DIR}/TradPlusAdSDK" "-F${PODS_CONFIGURATION_BUILD_DIR}/TradPlusOperaSDKAdapter"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

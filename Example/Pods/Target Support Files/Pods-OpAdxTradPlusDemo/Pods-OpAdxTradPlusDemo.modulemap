@@ -1,0 +1,6 @@
+framework module Pods_OpAdxTradPlusDemo {
+  umbrella header "Pods-OpAdxTradPlusDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

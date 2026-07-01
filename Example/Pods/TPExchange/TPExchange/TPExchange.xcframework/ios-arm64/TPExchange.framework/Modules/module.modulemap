@@ -1,0 +1,6 @@
+framework module TPExchange {
+  umbrella header "TPExchange.h"
+  export *
+
+  module * { export * }
+}

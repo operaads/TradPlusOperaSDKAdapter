@@ -1,0 +1,6 @@
+framework module OpAdxAdapterTradPlus {
+  umbrella header "OpAdxAdapterTradPlus.h"
+  export *
+
+  module * { export * }
+}
