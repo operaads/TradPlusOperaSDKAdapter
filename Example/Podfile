@@ -8,7 +8,7 @@ target 'OpAdxTradPlusDemo' do
   pod 'TradPlusAdSDK/TPCrossAdapter', '15.1.1'
 
   # Opera Ads SDK + TradPlus Adapter
-  pod 'OpAdxSdk', '2.11.2'
-  pod 'TradPlusOperaSDKAdapter', '2.11.2.1'
+  pod 'OpAdxSdk', '2.12.0'
+  pod 'TradPlusOperaSDKAdapter', '2.12.0.0'
 end
 
