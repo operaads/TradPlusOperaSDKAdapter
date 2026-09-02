@@ -24,7 +24,7 @@ TradPlusOperaSDKAdapter is a custom mediation adapter that enables seamless inte
 
 - iOS 13.0+
 - TradPlus SDK 15.1.1+
-- OpAdxSdk 2.12.1
+- OpAdxSdk 2.14.0
 - Xcode 16.0+
 
 ## Installation
@@ -38,10 +38,10 @@ Add the following to your `Podfile`:
 pod 'TradPlusAdSDK', '>= 15.1.1'
 
 # Opera Ads SDK
-pod 'OpAdxSdk', '2.12.1'
+pod 'OpAdxSdk', '2.14.0'
 
 # Opera Ads TradPlus Adapter
-pod 'TradPlusOperaSDKAdapter', '2.12.1.0'
+pod 'TradPlusOperaSDKAdapter', '2.14.0.0'
 ```
 
 Then run:
@@ -319,6 +319,9 @@ Opera Ads supports C2S (Client-to-Server) bidding through TradPlus:
 The adapter handles win/loss notifications automatically. No additional code is required.
 
 ## Version History
+
+### 2.14.0.0 (2026-09-01)
+- Upgraded OpAdxSdk dependency to 2.14.0
 
 ### 2.12.1.0 (2026-08-13)
 - Upgraded OpAdxSdk dependency to 2.12.1

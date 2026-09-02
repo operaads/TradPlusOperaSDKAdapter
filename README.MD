@@ -24,7 +24,7 @@ TradPlusOperaSDKAdapter 是一个自定义聚合适配器，使 Opera Advertisin
 
 - iOS 13.0+
 - TradPlus SDK 15.1.1+
-- OpAdxSdk 2.12.1
+- OpAdxSdk 2.14.0
 - Xcode 16.0+
 
 ## 安装
@@ -38,10 +38,10 @@ TradPlusOperaSDKAdapter 是一个自定义聚合适配器，使 Opera Advertisin
 pod 'TradPlusAdSDK', '>= 15.1.1'
 
 # Opera Ads SDK
-pod 'OpAdxSdk', '2.12.1'
+pod 'OpAdxSdk', '2.14.0'
 
 # Opera Ads TradPlus 适配器
-pod 'TradPlusOperaSDKAdapter', '2.12.1.0'
+pod 'TradPlusOperaSDKAdapter', '2.14.0.0'
 ```
 
 然后运行：
@@ -319,6 +319,9 @@ Opera Ads 支持通过 TradPlus 进行 C2S（Client-to-Server）竞价：
 适配器会自动处理竞价胜负通知，无需额外代码。
 
 ## 版本历史
+
+### 2.14.0.0 (2026-09-01)
+- 升级依赖 OpAdxSdk 至 2.14.0
 
 ### 2.12.1.0 (2026-08-13)
 - 升级依赖 OpAdxSdk 至 2.12.1

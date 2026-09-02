@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   # ――― 基本信息 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.name         = "TradPlusOperaSDKAdapter"
-  spec.version      = "2.12.1.0"
+  spec.version      = "2.14.0.0"
   spec.summary      = "Opera Ads Custom Adapter for TradPlus Mediation Platform."
   spec.description  = <<-DESC
     TradPlusOperaSDKAdapter is a custom mediation adapter that enables the integration of
@@ -44,7 +44,7 @@ Pod::Spec.new do |spec|
   spec.dependency 'TradPlusAdSDK', '>= 15.1.1'
 
   # Opera Ads SDK - 使用CocoaPods发布的版本
-  spec.dependency 'OpAdxSdk', '2.12.1'
+  spec.dependency 'OpAdxSdk', '2.14.0'
 
   # ――― 元数据 ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 

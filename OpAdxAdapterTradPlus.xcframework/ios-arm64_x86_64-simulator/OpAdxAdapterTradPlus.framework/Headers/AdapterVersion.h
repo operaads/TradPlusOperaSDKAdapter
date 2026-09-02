@@ -1,3 +1,3 @@
 #import <Foundation/Foundation.h>
 
-static NSString * const kOpAdxTradPlusAdapterVersion = @"2.12.1.0";
+static NSString * const kOpAdxTradPlusAdapterVersion = @"2.14.0.0";
